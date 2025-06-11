@@ -1,59 +1,54 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Perfil Pessoal</title>
+  <title>Sobre Mim</title>
   <style>
-    /* Centralização do conteúdo e definição do fundo da página */
     body {
-      background-color: #f0f0f0;
       font-family: Arial, sans-serif;
-      text-align: center;
-      margin: 0;
-      padding: 0;
-    }
-
-    /* Estilo do card de perfil */
-    .perfil {
-      background-color: white;
-      padding: 20px;
-      width: 300px;
-      margin: 50px auto;
-      border-radius: 15px;
-      box-shadow: 0 0 10px gray;
-      border: 2px solid #ddd; /* Borda leve */
-    }
-
-    /* Estilo da imagem do perfil */
-    .perfil img {
-      border-radius: 50%; /* Forma circular */
-      width: 150px;
-      height: 150px;
-      object-fit: cover; /* Ajuste para que a imagem se encaixe bem */
-      margin-bottom: 20px;
-    }
-
-    /* Estilo do nome do perfil */
-    .perfil h1 {
+      margin: 40px;
+      background-color: #f4f4f4;
       color: #333;
-      font-size: 24px;
-      margin: 10px 0;
     }
-
-    /* Estilo dos parágrafos */
-    .perfil p {
-      color: #555;
-      font-size: 16px;
-      margin: 5px 0;
+    h1 {
+      color: #4a90e2;
+    }
+    img {
+      max-width: 300px;
+      border-radius: 10px;
+    }
+    video {
+      max-width: 500px;
+      display: block;
+      margin-top: 20px;
+    }
+    .social a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: #4a90e2;
     }
   </style>
 </head>
 <body>
-  <div class="perfil">
-    <h1>Gustavo Moro Conke</h1>
-    <p>Idade: 17 anos</p>
-    <p><strong>Hobbies:</strong> Natação, Jogar, Xadrez, Programar, Ler</p>
+  <h1>Olá! 👋</h1>
+  <p><strong>Nome:</strong> Gustavo Moro Conke</p>
+  <p><strong>Idade:</strong> 17 anos</p>
+  <p><strong>Hobbies:</strong> Jogar videogame, correr, ouvir música e nadar</p>
+  <p><strong>Sobre mim:</strong> Sou uma pessoa que busca equilíbrio entre os estudos e momentos de lazer. Gosto de correr para relaxar e sou apaixonado por tecnologia e desafios. Meu objetivo é passar em Ciência da computação e aprender a programar.</p>
+
+  <h2>Minha Foto</h2>
+  <img src="foto.jpeg" alt="Minha imagem">
+
+  <h2>Um Vídeo que Gosto</h2>
+  <video controls>
+    <source src="video-exemplo.mp4" type="video/mp4">
+    Seu navegador não suporta vídeo HTML5.
+  </video>
+
+  <h2>Minhas Redes Sociais</h2>
+  <div class="social">
+    <a href="https://www.instagram.com/gustavoconke/" target="_blank">Instagram</a>
+    <a href="https://www.youtube.com/@gustavomoro1858" target="_blank">Youtube</a>
   </div>
 </body>
 </html>
