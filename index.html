@@ -6,52 +6,89 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 40px;
-      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      background-color: #eef1f5;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    h1, h2 {
+      color: #4a90e2;
+      text-align: center;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.6;
       color: #333;
     }
-    h1 {
-      color: #4a90e2;
-    }
+
     img {
-      max-width: 300px;
-      border-radius: 10px;
-    }
-    video {
-      max-width: 500px;
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
       display: block;
-      margin-top: 20px;
+      margin: 20px auto;
     }
+
+    video {
+      max-width: 100%;
+      border-radius: 12px;
+      display: block;
+      margin: 20px auto;
+    }
+
+    .social {
+      text-align: center;
+      margin-top: 30px;
+    }
+
     .social a {
-      margin-right: 15px;
+      margin: 0 10px;
+      padding: 10px 15px;
+      background-color: #4a90e2;
+      color: #fff;
+      border-radius: 8px;
       text-decoration: none;
-      color: #4a90e2;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .social a:hover {
+      background-color: #3a7bd5;
     }
   </style>
 </head>
 <body>
-  <h1>Olá! 👋</h1>
-  <p><strong>Nome:</strong> Gustavo Moro Conke</p>
-  <p><strong>Idade:</strong> 17 anos</p>
-  <p><strong>Hobbies:</strong> Jogar videogame, correr, ouvir música e nadar</p>
-  <p><strong>Sobre mim:</strong> Sou uma pessoa que busca equilíbrio entre os estudos e momentos de lazer. Gosto de correr para relaxar e sou apaixonado por tecnologia e desafios. Meu objetivo é passar em Ciência da computação e aprender a programar.</p>
+  <div class="container">
+    <h1>Olá! 👋</h1>
+    <p><strong>Nome:</strong> Gustavo Moro Conke</p>
+    <p><strong>Idade:</strong> 17 anos</p>
+    <p><strong>Hobbies:</strong> Jogar videogame, correr, ouvir música e nadar</p>
+    <p><strong>Sobre mim:</strong> Sou uma pessoa que busca equilíbrio entre os estudos e momentos de lazer. Gosto de correr para relaxar e sou apaixonado por tecnologia e desafios. Meu objetivo é passar em Ciência da Computação e aprender a programar.</p>
 
-  <h2>Minha Foto</h2>
-  <img src="foto.jpeg" alt="Minha imagem">
+    <h2>Minha Foto</h2>
+    <img src="foto.jpeg" alt="Minha imagem">
 
-  <h2>Um Vídeo que Gosto</h2>
-  <video controls>
-    <video width="320" height="240" controls>
-  <source src="video.gif" type="video/gif">
-  Your browser does not support the video tag.
-</video>
+    <h2>Um Vídeo que Gosto</h2>
+    <video controls>
+      <source src="video.gif" type="video/gif">
+      Seu navegador não suporta vídeo HTML5.
+    </video>
 
-  </video>
-
-  <h2>Minhas Redes Sociais</h2>
-  <div class="social">
-    <a href="https://www.instagram.com/gustavoconke/" target="_blank">Instagram</a>
-    <a href="https://www.youtube.com/@gustavomoro1858" target="_blank">Youtube</a>
+    <h2>Minhas Redes Sociais</h2>
+    <div class="social">
+      <a href="https://www.instagram.com/gustavoconke/" target="_blank">Instagram</a>
+      <a href="https://www.youtube.com/@gustavomoro1858" target="_blank">YouTube</a>
+    </div>
   </div>
 </body>
 </html>
